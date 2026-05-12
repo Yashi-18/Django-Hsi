@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Website Profil{% endblock %}
+{% block page_title %}HSI Boarding School Purworejo{% endblock %}
+{% block subtitle %}Website Profil Sederhana — Kelas X{% endblock %}
+
+{% block content %}
+  <div class="container">
+        <h3 id="h3" class="section-title">Pengantar</h3>
+        <p>
+          Welcome, This is my project of html 👋👋 <br />
+          Saya disini sebagai santri HSI Boarding School<br />
+          Dan di project ini, saya membuat web yg berisi : "Biodata", "Galeri",
+          "Jadwal", "Feedback"
+        </p>
+      </div>
+      <div class="container">
+        <h3 id="h3" class="section-title">Minat Saya</h3><br>
+        <img class="photo-hobi" src="{% static 'images/Lugh.jpg' %}" alt="bocil kematian" />
+        <img class="photo-hobi" src="{% static 'images/lloyd.jpg' %}" alt="bocil kematian">
+        <p>
+          Karakter di atas berasal dari anime yg "MC"-nya para bocil kematian,<br>
+           walaupun kecil tapi mematikan
+        </p>
+      </div>
+{% endblock %}

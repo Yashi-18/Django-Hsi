@@ -1,0 +1,1 @@
+print("Django - World Class Web Framework")

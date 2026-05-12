@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Website Profil{% endblock %}
+{% block page_title %}HSI Boarding School Purworejo{% endblock %}
+{% block subtitle %}Website Profil Sederhana — Kelas X{% endblock %}
+
+{% block content %}
+<div class="container">
+      <h3 id="h3" class="section-title">Karya desain</h3>
+      <div class="gallery">
+        <figure class="card">
+          <img width="450" src="{% static 'images/date.jpg' %}" alt="date" />
+          <figcaption>Jalan ke Tempat Ifthor</figcaption>
+        </figure>
+        <figure class="card">
+          <img width="450" src="{% static 'images/p.jpg' %}" alt="date" />
+          <figcaption>Foto d Asrama dulu</figcaption>
+        </figure>
+        <figure class="card">
+          <img width="450" src="{% static 'images/susursungai.jpg' %}" alt="date" />
+          <figcaption>Kegiatan Susur Sungai</figcaption>
+        </figure>
+        <figure class="card">
+          <img width="450" src="{% static 'images/mukhoyam.jpg' %}" alt="date" />
+          <figcaption>Nugas Qism Shihah</figcaption>
+        </figure>
+      </div>
+    </div>
+{% endblock %}

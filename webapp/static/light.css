@@ -1,0 +1,72 @@
+/* LIGHT THEME: Clean, Bright, and Modern */
+body {
+  background-color: #f4f7f6;
+  color: #2c3e50;
+  font-family: "Verdana", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Bright, Sticky Navbar */
+.global-nav {
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  position: sticky; /* Stays at the top when scrolling */
+  top: 0;
+  z-index: 100;
+}
+
+.global-nav a {
+  color: #34495e;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+}
+
+/* Underline effect on hover */
+.global-nav a:hover {
+  color: #e74c3c;
+  border-bottom: 3px solid #e74c3c;
+}
+
+/* Content Area */
+.main-content {
+  padding: 50px 20px;
+  flex: 1;
+  max-width: 1000px;
+  margin: 0 auto; /* Centers the content */
+  width: 100%;
+}
+
+/* Overriding child template headers to fit the light theme */
+.page-header h1,
+.header-neon {
+  color: #2c3e50 !important;
+  text-shadow: none !important;
+}
+
+.page-header p {
+  color: #7f8c8d;
+  font-weight: bold;
+}
+
+/* Clean, flat footer */
+.global-footer {
+  background-color: #ecf0f1;
+  color: #95a5a6;
+  text-align: center;
+  padding: 25px;
+  font-weight: bold;
+  border-top: 1px solid #bdc3c7;
+}
